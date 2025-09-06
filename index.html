@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Gaming</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/9eaee8c2c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen grid grid-cols-1 md:grid-cols-[12%_88%] grid-rows-[auto_1fr_auto]">
+
+  <nav class="bg-gray-900 text-white flex flex-col items-center p-2 md:row-span-3">
+    <p class="text-lg font-bold mb-2">Tienda Gamer Chile</p>
+    <ul class="space-y-2 text-sm text-center md:space-y-4">
+      <li><a href="#consolas" class="hover:text-blue-400">Consolas</a></li>
+      <li><a href="#juegos" class="hover:text-blue-400">Juegos</a></li>
+      <li><a href="#accesorios" class="hover:text-blue-400">Accesorios</a></li>
+      <li><a href="#contacto" class="hover:text-blue-400">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <aside class="bg-gray-200 p-2 flex items-center justify-center">
+    <img src="assets/imgs/banner.jpg" alt="Banner" class="w-full h-32 object-cover rounded-lg shadow-md">
+  </aside>
+
+  <main class="p-4 space-y-10">
+
+    <section id="consolas">
+      <h2 class="text-xl font-bold text-gray-800 mb-3">Consolas</h2>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/ps5.png" alt="PS5" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">PlayStation 5</h5>
+          <p class="text-gray-600 text-sm">$490.000</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/xbox.png" alt="Xbox" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Xbox Series X</h5>
+          <p class="text-gray-600 text-sm">$580.000</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/nintendo.png" alt="Nintendo" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Nintendo Switch</h5>
+          <p class="text-gray-600 text-sm">$289.000</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="juegos">
+      <h2 class="text-xl font-bold text-gray-800 mb-3">Juegos</h2>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/elden.png" alt="Elden" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Elden Ring Xbox</h5>
+          <p class="text-gray-600 text-sm">$40.000</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/celda.png" alt="Zelda" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Zelda BOTW</h5>
+          <p class="text-gray-600 text-sm">$20.000</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/god.jpg" alt="God of War" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">God of War Ragnarok PS5</h5>
+          <p class="text-gray-600 text-sm">$35.000</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="accesorios">
+      <h2 class="text-xl font-bold text-gray-800 mb-3">Accesorios</h2>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/AURIS.png" alt="Auriculares" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Audífonos Logitech PRO X</h5>
+          <p class="text-gray-600 text-sm">$162.000</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/mouse.jpg" alt="Mouse" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Mouse Logitech G Pro X</h5>
+          <p class="text-gray-600 text-sm">$169.990</p>
+        </div>
+        <div class="bg-white p-3 rounded-lg shadow-md transition transform hover:scale-105 hover:shadow-xl">
+          <img src="assets/imgs/teclado.jpg" alt="Teclado" class="rounded-lg mb-2">
+          <h5 class="font-semibold text-sm">Teclado Razer Huntsman V3</h5>
+          <p class="text-gray-600 text-sm">$159.990</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="bg-stone-900 text-white text-center p-3 col-span-full">
+    <p class="space-x-4 mb-2">
+      <a href="https://www.facebook.com" class="hover:text-blue-400"><i class="fa-brands fa-facebook fa-lg"></i></a>
+      <a href="https://instagram.com" class="hover:text-blue-400"><i class="fa-brands fa-instagram fa-lg"></i></a>
+    </p>
+    <p class="text-sm">gabrielfuentes2005.d@gmail.com</p>
+    <p class="text-xs">© 2025 Gabriel Fuentes - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
